@@ -1,0 +1,59 @@
+/* Basic page styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  margin: 0;
+  padding: 2rem;
+}
+
+/* Container to center and style the card */
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  background: #ffffff;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Headline */
+h1 {
+  margin-top: 0;
+}
+
+/* File list below the input */
+#file-list {
+  list-style: none;
+  padding-left: 0;
+  margin-top: 0.5rem;
+}
+
+/* Styling for buttons */
+button {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 4px;
+  background-color: #0066cc;
+  color: #fff;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+/* Disabled state */
+button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+/* Hidden by default */
+button[hidden] {
+  display: none;
+}
+
+/* Status message */
+#status {
+  margin-top: 1rem;
+  font-weight: bold;
+}
