@@ -1,0 +1,7 @@
+Flask>=2.2
+pandas>=2.0
+pytz
+openpyxl
+tabula-py
+camelot-py[cv]
+PyPDF2
