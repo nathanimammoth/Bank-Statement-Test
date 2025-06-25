@@ -5,4 +5,4 @@ openpyxl
 tabula-py
 camelot-py[cv]
 PyPDF2
-+gunicorn
+gunicorn
